@@ -13,7 +13,6 @@ def preprocess(x, y):
     y = tf.one_hot(y, depth=10)
     return x, y
 
-
 batchsz = 128
 
 
